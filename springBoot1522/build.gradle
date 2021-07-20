@@ -1,0 +1,19 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.22.RELEASE'
+    id 'java'
+    id 'war'
+}
+
+group = 'springboot1522'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    compile 'org.springframework.boot:spring-boot-starter-web'
+    compile 'org.springframework.boot:spring-boot-starter-tomcat'
+}
